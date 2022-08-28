@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    tools:context="com.example.yuki.mychargingpoint.MainActivity">
+    <item
+        android:id="@+id/action_BasicMap"
+        android:orderInCategory="100"
+        android:title="@string/action_BasicMap"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_TwoMap"
+        android:orderInCategory="100"
+        android:title="@string/action_TwoMap"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_RestRoute"
+        android:orderInCategory="100"
+        android:title="@string/action_RestRoute"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_RoutePoint"
+        android:orderInCategory="100"
+        android:title="@string/action_RoutePoint" />
+    <item
+        android:id="@+id/action_Settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings" />
+</menu>
